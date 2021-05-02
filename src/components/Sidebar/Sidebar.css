@@ -1,0 +1,15 @@
+.sidebar-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #0E0C0A;
+}
+.borderBottom{
+    border-bottom: 1px solid white;
+    margin: 10px 25px;
+}
+.a{
+    border-bottom: 1px solid white;
+}

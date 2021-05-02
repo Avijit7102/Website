@@ -1,0 +1,11 @@
+.headRight li:hover
+{
+    color: #FA944B;
+}
+.headRight i:hover
+{
+    color: #FA944B;
+}
+.headRight :hover{
+    color: #FA944B;
+}
