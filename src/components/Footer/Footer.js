@@ -10,11 +10,11 @@ const Footer = () => {
 
                         <div class="footer-pad">
                             <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Blogs</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="/dashboard">Resume</a></li>
-                                <li><a href="/login">Contact me</a></li>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="/blogs">Blogs</a></li>
+                                <li><a href="/projects">Projects</a></li>
+                                <li><a href="/resume">Resume</a></li>
+                                <li><a href="/aboutMe">About me</a></li>
                             </ul>
                         </div>
                     </div>

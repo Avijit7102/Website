@@ -1,5 +1,6 @@
 import React from 'react';
 import pic from '../../images/avi.jpg';
+import Footer from '../Footer/Footer';
 import './AboutMe.css';
 const AboutMe = () => {
     return (
@@ -46,36 +47,7 @@ const AboutMe = () => {
                     </p>
                 </div>
             </div>
-
-            <div style={{marginLeft:'600px'}}>
-                <form id="form">
-                    <div class="field">
-                        <label for="from_name">from_name</label>
-                        <input type="text" name="from_name" id="from_name" />
-                    </div>
-                    <div class="field">
-                        <label for="to_name">to_name</label>
-                        <input type="text" name="to_name" id="to_name" />
-                    </div>
-                    <div class="field">
-                        <label for="message">message</label>
-                        <input type="text" name="message" id="message" />
-                    </div>
-                    <div class="field">
-                        <label for="reply_to">reply_to</label>
-                        <input type="text" name="reply_to" id="reply_to" />
-                    </div>
-
-                    <input type="submit" id="button" value="Send Email" />
-                </form>
-
-                <script type="text/javascript"
-                    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-
-                <script type="text/javascript">
-                    emailjs.init('user_2lziiIbiQm1oc27Er901I')
-                </script>
-            </div>
+            <Footer></Footer>
         </div>
     );
 };

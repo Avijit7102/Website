@@ -1,0 +1,20 @@
+.download{
+    text-decoration: none;
+    color: white;
+    border: 2px solid peru;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.download:hover{
+    color: #FA944B;
+}
+.page:hover{
+    color:#FA944B;
+}
+@media screen and (max-width: 760px) {
+    .formField{
+      width: auto;
+      text-align: start;
+      background-color: goldenrod;
+    }
+  }
